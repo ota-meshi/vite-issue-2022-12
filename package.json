@@ -1,0 +1,18 @@
+{
+  "name": "vite-issue-2022-12",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-and-open": "npm run build && npx http-server dist -o",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "postcss": "^8.4.20"
+  }
+}
